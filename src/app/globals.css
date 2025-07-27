@@ -1,26 +1,38 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-primary: hsl(0, 0%, 0%); /* borders, fills, big text*/
+  --color-secondary: hsl(0, 0%, 51%); /* borders, fills, text complementary*/
+  --color-muted: hsl(0, 0%, 75%); /* background for soft buttons */
+  --color-base: hsl(0, 0%, 0%); /* base text color */
+  --color-base-light: hsl(0, 0%, 100%);
+  --color-accent: hsl(0, 100%, 50%);
+  --color-bg-primary: hsl(0, 0%, 100%);
+  --color-bg-secondary: hsl(0, 0%, 85%);
+  --font-family-base: Helvetica, Arial, sans-serif;
+
+  /* hovers */
+  --color-primary-dark: hsl(0, 0%, 20%);
+  --color-accent-dark: hsl(0, 100%, 30%);
+  --color-muted-dark: hsl(0, 0%, 40%);
+}
+
+
+body {
+  background-color: var(--color-bg-primary);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-muted: var(--color-muted);
+  --color-base: var(--color-base);
+  --color-base-light: var(--color-base-light);
+  --color-accent: var(--color-accent);
+  --color-bg-primary: var(--color-bg-primary);
+  --color-bg-secondary: var(--color-bg-secondary);
+  --font-family-base: var(--font-family-base);
+  --color-primary-dark: var(--color-primary-dark);
+  --color-accent-dark: var(--color-accent-dark);
+  --color-muted-dark: var(--color-muted-dark);
 }
