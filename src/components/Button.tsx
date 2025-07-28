@@ -3,13 +3,13 @@ import { cva } from "class-variance-authority";
 import "../app/globals.css";
 
 const buttonStyles = cva(
-  "flex justify-between items-center px-5 py-3 font-semibold transition-colors duration-200",
+  "flex justify-between items-center font-semibold rounded-md transition-colors duration-200",
   {
     variants: {
       intent: {
-        primary: "bg-primary-dark text-base-light hover:bg-muted-dark hover:text-base-light",
-        secondary: "bg-muted border-2 text-base border-base hover:bg-secondary",
-        destructive: "bg-accent text-foreground hover:bg-accent-dark",
+        primary: "bg-primary-dark text-base-light px-5 py-3 hover:bg-muted-dark hover:text-base-light",
+        secondary: "bg-primary/5 px-3 py-3 text-base hover:bg-secondary/20",
+        destructive: "bg-accent text-white px-5 py-3 hover:bg-accent-dark",
       },
     },
     defaultVariants: {

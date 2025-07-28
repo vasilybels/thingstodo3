@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Marynata";
+  src: url("../fonts/Marynata-Regular.woff") format("woff");
+
+}
+
 :root {
   --color-primary: hsl(0, 0%, 0%); /* borders, fills, big text*/
   --color-secondary: hsl(0, 0%, 51%); /* borders, fills, text complementary*/
@@ -9,8 +15,7 @@
   --color-accent: hsl(0, 100%, 50%);
   --color-bg-primary: hsl(0, 0%, 100%);
   --color-bg-secondary: hsl(0, 0%, 85%);
-  --font-family-base: Helvetica, Arial, sans-serif;
-
+  --font-family-base: "Marynata", sans-serif; /* Base font family */
   /* hovers */
   --color-primary-dark: hsl(0, 0%, 20%);
   --color-accent-dark: hsl(0, 100%, 30%);
@@ -20,6 +25,16 @@
 
 body {
   background-color: var(--color-bg-primary);
+  font-family: var(--font-family-base);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--color-primary-dark);
 }
 
 @theme inline {
