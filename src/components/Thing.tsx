@@ -12,9 +12,9 @@ type ThingProps = {
     onClick?: () => void; 
 }
 
-export default function ThingCard({ id, title, author, contentPreview, contentImagePreview, ...props} : ThingProps) {
+export default function ThingCard({ id, title, author, contentPreview, contentImagePreview, onClick } : ThingProps) {
     return (
-        <div className="flex-col w-70 h-110 p-5 rounded-2xl items-start border-1 border-primary/10 shadow-lg shadow-primary/10 hover:shadow-primary/20 transition-shadow duration-300">
+        <div onClick={onClick} className="flex-col w-70 h-110 p-5 rounded-2xl items-start border-1 border-primary/10 shadow-lg shadow-primary/10 hover:shadow-primary/20 transition-shadow duration-300">
             <p className="font-bold text-2xl">{title}</p>
             <p className="font-regular rounded-2xl bg-primary/10 px-2 py-1 text-sm w-fit mt-1 hover:bg-primary/20 transition-color duration-100">By {author}</p>
             {contentPreview && (

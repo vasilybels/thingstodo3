@@ -10,8 +10,6 @@ import { ListFilter, User, LayoutList, LayoutGrid } from 'lucide-react';
 
 export default function Header () {
 
-  
-
   return (
     <div id="main-header-div" className="p-5 sticky top-0 z-10">
       <div className=" bg-muted/15 backdrop-blur-lg max-w-[50rem] flex justify-between rounded-xl m-auto p-5">

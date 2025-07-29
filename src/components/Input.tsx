@@ -8,7 +8,7 @@ const inputStyles = cva(
         variants: {
             style: {
                 search: "px-3 py-3 bg-primary/5 rounded-md hover:ring-1 hover:ring-primary/40 focus:ring-1 focus:ring-primary/50",
-                mknew: "",
+                mknew: "w-full h-fit ",
                 mknewtitle: "placeholder-primary text-2xl",
             }
         }

@@ -1,24 +1,28 @@
 import { Field, Label, Radio, RadioGroup } from '@headlessui/react'
 import { useState } from 'react'
+import "../app/globals.css"
 
-const layouts = ['Board', 'List', 'Hybrid']
+interface LayoutRadioProps {
+  choices: string[];
+}
 
-export default function Example() {
-  let [selected, setSelected] = useState(layouts[0])
+export default function LayoutRadio({ choices }: LayoutRadioProps) {
+  let [selected, setSelected] = useState(choices[0])
 
   return (
     <RadioGroup value={selected} onChange={setSelected} aria-label="Server size">
-      {layouts.map((layout) => (
-        <Field key={layout} className="flex items-center gap-2">
+      <div className="flex gap-4">
+      {choices.map((choice) => (
+        <Field key={choice} className="flex items-center gap-1">
           <Radio
-            value={layout}
-            className="group flex size-5 items-center justify-center rounded-full border bg-white data-checked:bg-blue-400"
+            value={choice}
+            className="flex size-5 items-center justify-center rounded-full border bg-white data-checked:bg-primary/20 transition-colors duration-300"
           >
-            <span className="invisible size-2 rounded-full bg-white group-data-checked:visible" />
           </Radio>
-          <Label>{layout}</Label>
+          <Label>{choice}</Label>
         </Field>
       ))}
+      </div>
     </RadioGroup>
   )
 }
