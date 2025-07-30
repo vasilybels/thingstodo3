@@ -2,14 +2,14 @@
   "projects": [
     {
       "id": "1",
-      "title": "new album plan",
-      "author": "Taylor Swift",
+      "title": "Mock Title",
+      "author": "User",
       "contentPreview": []
     },
     {
-      "title": "4th of july party",
+      "title": "Mock Title",
       "id": "2",
-      "author": "Beyonce",
+      "author": "User",
       "contentPreview": [
         "Mock Note 1",
         "Mock Note 2",
@@ -25,16 +25,18 @@
     },
     {
       "id": "3",
-      "title": "announce tour dates",
-      "author": "Sabrina Carpenter",
+      "title": "Mock Title",
+      "author": "User",
       "contentPreview": [
-        "/sabrina-carpenter.jpg"
+        "Mock Note 1",
+        "Mock Note 2",
+        "Mock Note 3"
       ]
     },
     {
       "id": "4",
-      "title": "collaboration with finneas",
-      "author": "Billie Eilish",
+      "title": "Mock Title",
+      "author": "User",
       "contentPreview": [
         "Mock Note 1",
         "Mock Note 2",
@@ -45,16 +47,16 @@
     },
     {
       "id": "5",
-      "title": "new music video shoot when",
-      "author": "Ariana Grande",
+      "title": "Mock Title",
+      "author": "User",
       "contentPreview": [
-        "/ariana-grande.jpeg"
+        
       ]
     },
     {
       "id": "6",
-      "title": "strategy session",
-      "author": "Chappell Roan",
+      "title": "Mock Title",
+      "author": "User",
       "contentPreview": [
         "Mock Note 1",
         "Mock Note 2",
@@ -65,21 +67,29 @@
     },
     {
       "id": "7",
-      "title": "Keep being a queen",
-      "author": "Olivia Rodrigo",
+      "title": "Mock Title",
+      "author": "User",
+      "contentPreview": [
+        "Mock Note 1",
+        "Mock Note 2",
+        "Mock Note 3"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Mock Title",
+      "author": "User",
       "contentPreview": [
         "Mock Note 1",
         "Mock Note 2",
         "Mock Note 3",
         "Mock Note 4",
-        "Mock Note 5"
-      ]
-    },
-    {
-      "id": "8",
-      "title": "Concert tour announcement",
-      "author": "SZA",
-      "contentPreview": [
+        "Mock Note 5",
+        "Mock Note 6",
+        "Mock Note 7",
+        "Mock Note 8",
+        "Mock Note 9",
+        "Mock Note 0",
         "Mock Note 1",
         "Mock Note 2",
         "Mock Note 3",
