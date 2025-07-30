@@ -25,7 +25,7 @@ export default function NewThingDialog() {
   return (
     <>
       <Button onClick={open} intent="primary">
-        New Thing
+        New Project
       </Button>
 
       <Dialog open={isOpen} as="div" className="relative z-10" onClose={close} __demoMode>
@@ -33,8 +33,8 @@ export default function NewThingDialog() {
           <div className="flex min-h-screen items-center justify-center">
             <DialogPanel transition className={dialogPanelStyle}>
               <div className="mb-10 flex-col gap-1">
-                <Input placeholder="Title..." style="mknewtitle"/>
-                <Input placeholder="Description..." style="mknew" />
+                <Input placeholder="Enter title..." defaultValue="Project #X" style="mknewtitle"/>
+                <Input placeholder="Enter description..." style="mknew" />
               </div>
               <div>
                 <h1 className="mb-1">Layout type:</h1>

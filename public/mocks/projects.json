@@ -3,18 +3,89 @@
         "id": 1,
         "title": "Mix and master deluxe tracks",
         "author": "Taylor Swift",
-        "contentPreview": "Mock content preview"
+        "contentPreview": [
+            "Mock Note 1",
+            "Mock Note 2",
+            "Mock Note 3",
+            "Mock Note 4",
+            "Mock Note 5"
+        ]
     },
     {
         "id": 2,
         "title": "Independence Day party next week",
         "author": "Beyonce",
-        "contentPreview": "Mock content preview"        
+        "contentPreview": [
+            "Mock Note 1",
+            "Mock Note 2",
+            "Mock Note 3",
+            "Mock Note 4",
+            "Mock Note 5",
+            "Mock Note 6",
+            "Mock Note 7",
+            "Mock Note 8",
+            "Mock Note 9",
+            "Mock Note 0"
+        ]    
     },
     {
         "id": 3,
-        "title": "Brat tour in Minneapolis",
-        "author": "Charli XCX",
-        "contentPreview": "Mock content preview"        
-    }    
+        "title": "Man's Best Friend in Minneapolis",
+        "author": "Sabrina Carpenter",
+        "contentPreview": "/sabrina-carpenter.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Do not flop again",
+        "author": "Billie Eilish",
+        "contentPreview": [
+            "Mock Note 1",
+            "Mock Note 2",
+            "Mock Note 3",
+            "Mock Note 4",
+            "Mock Note 5"
+        ]           
+    },
+    {
+        "id": 5,
+        "title": "Collaboration with Lady Gaga",
+        "author": "Ariana Grande",
+        "contentPreview": "/ariana-grande.jpeg"
+    },
+    {
+        "id": 6,
+        "title": "Music video shoot in LA",
+        "author": "Chappell Roan",
+        "contentPreview": [
+            "Mock Note 1",
+            "Mock Note 2",
+            "Mock Note 3",
+            "Mock Note 4",
+            "Mock Note 5"
+        ]          
+    },
+    {
+        "id": 7,
+        "title": "Keep being a queen",
+        "author": "Olivia Rodrigo",
+        "contentPreview": [
+            "Mock Note 1",
+            "Mock Note 2",
+            "Mock Note 3",
+            "Mock Note 4",
+            "Mock Note 5"
+        ]         
+    },
+    {
+        "id": 8,
+        "title": "Concert tour announcement",
+        "author": "SZA",
+        "contentPreview": [
+            "Mock Note 1",
+            "Mock Note 2",
+            "Mock Note 3",
+            "Mock Note 4",
+            "Mock Note 5"
+        ]        
+    }
 ]

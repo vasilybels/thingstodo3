@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import "./globals.css"
-import ThingCard from "../components/Thing";
+import ThingCard from "@components/Thing";
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 
@@ -14,21 +14,35 @@ export default function Home() {
     id: number;
     title: string;
     author: string;
-    contentPreview: string;
+    contentPreview: string[];
   };
 
   const [projects, setProjects] = useState<Project[]>([]);
 
   useEffect(() => {
-        async function fetchProjects() {
-          const res = await fetch('/mocks/projects.json');
-          const data = await res.json();
-          setProjects(data);
+    async function fetchProjects() {
+      try {
+        const res = await fetch('http://localhost:4000/projects');
+        if (!res.ok) {
+          throw new Error(`HTTP error status: ${res.status}`);
         }
-        fetchProjects();
-      }, []);
+        const contentType = res.headers.get("content-type");
+        if (!contentType || !contentType.includes("application/json")) {
+          throw new Error("Received non-JSON response");
+        }
+        const data = await res.json();
+        setProjects(data);
+        console.log(data);
+      } catch (e) {
+        console.error("Failed to fetch:", e);
+        setProjects([]);
+      }
+    }
+    fetchProjects();
+  }, []);
 
-  const handleClick = ( id : number ) => {
+
+  const handleClick = (id: number) => {
     router.push(`/projects/${id}`)
   }
 

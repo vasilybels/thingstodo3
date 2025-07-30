@@ -1,0 +1,91 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "new album plan",
+      "author": "Taylor Swift",
+      "contentPreview": []
+    },
+    {
+      "title": "4th of july party",
+      "id": "2",
+      "author": "Beyonce",
+      "contentPreview": [
+        "Mock Note 1",
+        "Mock Note 2",
+        "Mock Note 3",
+        "Mock Note 4",
+        "Mock Note 5",
+        "Mock Note 6",
+        "Mock Note 7",
+        "Mock Note 8",
+        "Mock Note 9",
+        "Mock Note 0"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "announce tour dates",
+      "author": "Sabrina Carpenter",
+      "contentPreview": [
+        "/sabrina-carpenter.jpg"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "collaboration with finneas",
+      "author": "Billie Eilish",
+      "contentPreview": [
+        "Mock Note 1",
+        "Mock Note 2",
+        "Mock Note 3",
+        "Mock Note 4",
+        "Mock Note 5"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "new music video shoot when",
+      "author": "Ariana Grande",
+      "contentPreview": [
+        "/ariana-grande.jpeg"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "strategy session",
+      "author": "Chappell Roan",
+      "contentPreview": [
+        "Mock Note 1",
+        "Mock Note 2",
+        "Mock Note 3",
+        "Mock Note 4",
+        "Mock Note 5"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Keep being a queen",
+      "author": "Olivia Rodrigo",
+      "contentPreview": [
+        "Mock Note 1",
+        "Mock Note 2",
+        "Mock Note 3",
+        "Mock Note 4",
+        "Mock Note 5"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Concert tour announcement",
+      "author": "SZA",
+      "contentPreview": [
+        "Mock Note 1",
+        "Mock Note 2",
+        "Mock Note 3",
+        "Mock Note 4",
+        "Mock Note 5"
+      ]
+    }
+  ]
+}
