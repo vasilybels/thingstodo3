@@ -7,17 +7,16 @@
 }
 
 :root {
-  --color-primary: hsl(0, 0%, 0%); /* borders, fills, big text*/
-  --color-secondary: hsl(0, 0%, 51%); /* borders, fills, text complementary*/
-  --color-muted: hsl(0, 0%, 75%); /* background for soft buttons */
-  --color-base: hsl(0, 0%, 0%); /* base text color */
-  --color-base-light: hsl(0, 0%, 100%);
-  --color-accent: hsl(0, 100%, 50%);
+  --color-primary:#F5540A; /* borders, fills, big text*/
+  --color-secondary: #50c7ff; /* borders, fills, text complementary*/ /* background for soft buttons */
+  --color-base: #000d13; /* base text color */
+  --color-base-light: #f3fafe;
+  --color-accent: #db3106;
   --color-bg-primary: hsl(0, 0%, 100%);
   --color-bg-secondary: hsl(0, 0%, 85%);
   --font-family-base: "Marynata", sans-serif; /* Base font family */
   /* hovers */
-  --color-primary-dark: hsl(0, 0%, 20%);
+  --color-primary-dark: #0086c5;
   --color-accent-dark: hsl(0, 100%, 30%);
   --color-muted-dark: hsl(0, 0%, 40%);
 }

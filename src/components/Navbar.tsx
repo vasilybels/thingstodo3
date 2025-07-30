@@ -9,7 +9,7 @@ export default function Navbar() {
 
 	return (
 		<nav className="fixed left-0 z-10 min-h-screen bg-transparent px-5">
-			<div className="flex flex-col gap-10 p-5 bg-muted/15 backdrop-blur-lg rounded-xl">
+			<div className="flex flex-col gap-10 p-5 bg-primary/5 backdrop-blur-lg rounded-xl">
 						<Link href="/">
 							<House className={standard} />
 						</Link>

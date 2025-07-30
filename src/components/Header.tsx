@@ -12,7 +12,7 @@ export default function Header () {
 
   return (
     <div id="main-header-div" className="px-5 py-5 sticky top-0 z-10">
-      <div className=" bg-muted/15 backdrop-blur-lg max-w-[70rem] flex justify-between rounded-xl m-auto px-5 py-3">
+      <div className=" bg-primary/5 backdrop-blur-lg max-w-[70rem] flex justify-between rounded-xl m-auto px-5 py-3">
         <div className="flex gap-5 items-center">
           <NewThingDialog />
           <div className="flex gap-1 items-center rounded-md">
