@@ -93,7 +93,7 @@ export default function ProjectPage () {
                                     <Check className="h-5 w-5 mr-1"/>Save
                                 </Button>
                                 <Button intent="edit">Clear</Button>
-                                <Button intent="edit" onClick={handleCancel}>Cancel</Button>
+                                <Button intent="editdestructive" onClick={handleCancel}>Cancel</Button>
                             </div>
                         </>
                     ) : (

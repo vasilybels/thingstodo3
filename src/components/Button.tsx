@@ -9,8 +9,9 @@ const buttonStyles = cva(
       intent: {
         primary: "bg-primary-dark text-base-light px-5 py-3 hover:bg-muted-dark hover:text-base-light",
         secondary: "bg-primary/5 px-3 py-3 text-base hover:bg-secondary/20",
-        destructive: "bg-accent text-white px-5 py-3 hover:bg-accent-dark",
+        destructive: "bg-accent text-base-light px-5 py-3 hover:bg-accent-dark",
         edit: "justify-center bg-primary/5 px-3 py-1 min-w-20 text-base hover:bg-secondary/20",
+        editdestructive: "justify-center bg-accent/30 px-3 py-1 min-w-20 text-base hover:bg-accent hover:text-base-light",
       },
     },
     defaultVariants: {
@@ -20,7 +21,7 @@ const buttonStyles = cva(
 );
 
 type ButtonProps = {
-  intent?: "primary" | "secondary" | "destructive" | "edit";
+  intent?: "primary" | "secondary" | "destructive" | "edit" | "editdestructive";
   text?: string;
   onClick?: () => void;
 };
