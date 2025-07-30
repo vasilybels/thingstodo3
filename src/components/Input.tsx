@@ -7,9 +7,10 @@ const inputStyles = cva(
     {
         variants: {
             style: {
-                search: "px-3 py-3 font-medium bg-primary/5 rounded-md hover:ring-1 hover:ring-primary/40 focus:ring-1 focus:ring-primary/50",
-                mknew: "w-full h-fit font-medium",
-                mknewtitle: "text-4xl font-bold uppercase ring-1 ring-primary mr-5 rounded-md",
+                search: "px-3 py-3 h-fit font-medium bg-primary/5 rounded-md hover:ring-1 hover:ring-primary/40 focus:ring-1 focus:ring-primary/50",
+                mknew: "font-medium h-fit ",
+                mknewtitle: "text-4xl font-bold h-fit uppercase ring-1 ring-primary mr-5 rounded-md",
+                editor: "rounded-md hover:ring-1 hover:ring-primary/40 focus:ring-1 focus:ring-primary/40 min-h-[50%] bg-base-light p-3"
             }
         }
     }
@@ -17,7 +18,7 @@ const inputStyles = cva(
 
 type InputProps = {
     placeholder?: string;
-    style: "search" | "mknew" | "mknewtitle";
+    style: "search" | "mknew" | "mknewtitle" | "editor";
     defaultValue?: string;
     onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
     onKeyDown?: (e: React.KeyboardEvent<HTMLInputElement>) => void;

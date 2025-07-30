@@ -1,5 +1,5 @@
 import { Dialog, DialogPanel, DialogTitle } from '@headlessui/react'
-import Button from './Button'
+import { Button } from './Button'
 import Input from './Input'
 import { useState } from 'react'
 import "../app/globals.css"

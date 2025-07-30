@@ -9,7 +9,7 @@ type ContentCardProps = {
 
 export default function ContentCard ({ note } : ContentCardProps ) {
     return(
-        <div className="flex-col w-50 h-50 p-5 text-5xl rounded-2xl items-start border-1 border-primary/10 shadow-lg shadow-primary/10 hover:shadow-primary/20 transition-shadow duration-300">
+        <div className="flex-col w-40 h-40 p-3 text-xl rounded-2xl items-start bg-muted/15 backdrop-blur-lg">
             <p>{note}</p>
         </div>
     )

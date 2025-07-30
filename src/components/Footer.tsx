@@ -1,6 +1,6 @@
 import * as React from "react";
 import "../app/globals.css"
-import Button from "./Button";
+import { Button } from "./Button";
 
 export default function Footer( ) {
     return (

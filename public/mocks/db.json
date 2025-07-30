@@ -2,22 +2,22 @@
   "projects": [
     {
       "id": "1",
-      "title": "Mock Title",
-      "author": "User",
+      "title": "New Project",
+      "author": "me",
       "contentPreview": []
     },
     {
-      "title": "Mock Title",
+      "title": "Trip to Long Island",
       "id": "2",
-      "author": "User",
+      "author": "Strange Individuals",
       "contentPreview": [
-        "Mock Note 1",
-        "Mock Note 2",
-        "Mock Note 3",
+        "Buy tickets",
+        "Save money",
+        "Make snacks for the road",
         "Mock Note 4",
         "Mock Note 5",
         "Mock Note 6",
-        "Mock Note 7",
+        "Strategy session 2",
         "Mock Note 8",
         "Mock Note 9",
         "Mock Note 0"
@@ -49,9 +49,7 @@
       "id": "5",
       "title": "Mock Title",
       "author": "User",
-      "contentPreview": [
-        
-      ]
+      "contentPreview": []
     },
     {
       "id": "6",

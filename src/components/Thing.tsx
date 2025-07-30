@@ -12,12 +12,15 @@ type ThingProps = {
 
 export default function ThingCard({ id, title, author, contentPreview, onClick } : ThingProps) {
     return (
-        <div className="flex-col w-70 h-110 p-5 rounded-2xl items-start bg-muted/15 backdrop-blur-lg ">
-            <h1 className="font-bold text-2xl hover:underline hover:cursor-default" onClick={onClick} >{title}</h1>
-            <p className="font-regular rounded-2xl bg-primary/10 px-2 py-1 text-sm w-fit mt-1 hover:bg-primary/20 transition-color duration-100 hover:cursor-default">By {author}</p>
-            {(Array.isArray(contentPreview) && contentPreview.length != 1) && (
-                <p className="mt-5"> {contentPreview[0]}</p>
-            )}
+        <div className="flex-col w-70 h-90 p-5 rounded-2xl items-start justify-start bg-muted/15 backdrop-blur-lg transition-ring duration-200 hover:ring-1 hover:ring-primary/20" onClick={onClick}>
+            <h1 className="font-bold text-2xl hover:underline hover:cursor-default">{title}</h1>
+            <p className="font-regular mt-1 rounded-2xl bg-primary/10 px-2 py-1 text-sm w-fit hover:bg-primary/15 transition-color duration-200 hover:cursor-default">By {author}</p>
+            <div className="flex flex-wrap w-full p-3 items-start justify-center">
+                {Array.isArray(contentPreview) && (
+                    contentPreview.map((note, idx) =>
+                        <p className="font-regular rounded-2xl bg-primary/10 px-2 py-1 mx-1 my-0.5 text-sm w-fit hover:bg-primary/15 transition-color duration-200 hover:cursor-default" key={idx}>{note}</p>
+                ))}
+            </div>
         </div>
     )
 }

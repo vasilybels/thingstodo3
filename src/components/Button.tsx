@@ -11,7 +11,7 @@ const buttonStyles = cva(
         secondary: "bg-primary/5 px-3 py-3 text-base hover:bg-secondary/20",
         destructive: "bg-accent text-base-light px-5 py-3 hover:bg-accent-dark",
         edit: "justify-center bg-primary/5 px-3 py-1 min-w-20 text-base hover:bg-secondary/20",
-        editdestructive: "justify-center bg-accent/30 px-3 py-1 min-w-20 text-base hover:bg-accent hover:text-base-light",
+        editdestructive: "justify-center bg-accent/30 px-3 py-1 min-w-20 text-base hover:bg-accent hover:text-base-light"
       },
     },
     defaultVariants: {
@@ -26,10 +26,14 @@ type ButtonProps = {
   onClick?: () => void;
 };
 
-export default function Button({ intent, children, onClick }: React.PropsWithChildren<ButtonProps>) {
+function Button({ intent, children, onClick }: React.PropsWithChildren<ButtonProps>) {
   return (
     <button onClick={onClick} className={buttonStyles({ intent })}>
       {children}
     </button>
   );
 }
+
+export { Button };
+export type { ButtonProps };
+

@@ -3,7 +3,7 @@
 import * as React from 'react';
 import { useState } from 'react';
 import "../app/globals.css"
-import Button from "./Button";
+import { Button } from "./Button";
 import Input from "./Input";
 import NewThingDialog from './NewThingDialog';
 import { ListFilter, User, LayoutList, LayoutGrid } from 'lucide-react';
